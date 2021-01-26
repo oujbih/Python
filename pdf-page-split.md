@@ -1,5 +1,5 @@
 
-# code
+# Python
 ```
 import os
 os.chdir("/home/oujbih/Biblio/python/PDF_mo")    
@@ -17,4 +17,11 @@ with open("small.pdf", "wb") as outputStream:
     output.write(outputStream)
     
 https://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
+```
+
+# R
+```
+library(pdftools) #Rpackage
+pdf_subset('D:\\file\\20.02.20\\22 GT 2017.pdf',
+           pages = 1:51, output = "subset.pdf")
 ```
